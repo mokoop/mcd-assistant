@@ -1,0 +1,14 @@
+{
+  // 追加到 opencode.json（项目）或 ~/.config/opencode/opencode.json（全局）的顶层。
+  "mcp": {
+    "mcd-mcp": {
+      "type": "remote",
+      "url": "https://mcp.mcd.cn",
+      "enabled": true,
+      "oauth": false,
+      "headers": {
+        "Authorization": "Bearer {env:MCD_MCP_TOKEN}"
+      }
+    }
+  }
+}

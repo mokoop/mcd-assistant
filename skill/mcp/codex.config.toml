@@ -1,0 +1,4 @@
+# Codex CLI 的 MCP 配置（追加到 ~/.codex/config.toml 或项目 .codex/config.toml）
+[mcp_servers.mcd-mcp]
+url = "https://mcp.mcd.cn"
+bearer_token_env_var = "MCD_MCP_TOKEN"

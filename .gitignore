@@ -1,0 +1,31 @@
+# 依赖与构建产物
+node_modules/
+dist/
+coverage/
+
+# 环境变量与密钥（见 CONTEST_DECLARATION.md 信息安全声明）
+.env
+.env.*
+!.env.example
+
+# 用户数据（偏好画像等，含个人信息，禁止入库）
+data/
+
+# 日志与系统文件
+*.log
+.DS_Store
+
+# IDE
+.idea/
+
+# 打包含产物
+dist-skill/
+skill/scripts/
+
+# 本地 Agent 安装产物（含机器相关绝对路径，不入库）
+.codebuddy/skills/
+.workbuddy/
+.codex/
+.opencode/
+.qoder/
+opencode.json
